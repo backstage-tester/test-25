@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-25
+  title: backstage-tester/test-25
+  description: ret
+  annotations:
+    github.com/project-slug: backstage-tester/test-25
+    mycompany.com/exposure: internal
+    mycompany.com/pii: "true"
+    mycompany.com/pci: "false"
+    mycompany.com/phi: "true"
+    mycompany.com/ai: "true"
+    mycompany.com/bank-device: na
+    mycompany.com/tier: "2"
+  tags:
+    - java
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/team-supra
+  system: system:default/supra
